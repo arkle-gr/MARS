@@ -1,5 +1,6 @@
 # Cooperative Multi-Agent Deep Reinforcement Learning for Workflow Scheduling in Hybrid Clouds with Privacy and Security (MARS)
 This is an implementation code for our paper entitled MARS: Cooperative Multi-Agent Deep Reinforcement Learning for Workflow Scheduling in Hybrid Clouds with Privacy and Security Constraints in IJCAI 2024.
+
 ## Requirements
 
 see in requirements.txt
@@ -14,5 +15,9 @@ $ python main.py
 
 Directly run the main.py, the approach will run with the default settings.
 
-## Code structure
+## Data
+Workflows data with .xml format located in folder XML_Scientific_Workflow
 
+## Code Structure
+- `agent.py`: the agent in MARS
+- `buffer.py`: 
