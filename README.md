@@ -3,7 +3,7 @@ This is an implementation code for our paper entitled MARS: Cooperative Multi-Ag
 
 ## Requirements
 
-see in requirements.txt
+see in [requirements.txt](https://github.com/arkle-gr/MARS/blob/main/requirements.txt)
 
 install packages with `pip install -r requirements.txt`
 
@@ -16,7 +16,7 @@ $ python main.py
 Directly run the `main.py`, the approach will run with the default settings.
 
 ## Data
-Workflows data with .xml format located in folder XML_Scientific_Workflow, including CyberShake, Epigenomics, LIGO, Montage, and SIPHT.
+Workflows data with .xml format located in folder [XML_Scientific_Workflow](https://github.com/arkle-gr/MARS/tree/main/XML_Scientific_Workflow), including CyberShake, Epigenomics, LIGO, Montage, and SIPHT.
 
 ## Code Structure
 - `agent.py`: the agent in MARS
