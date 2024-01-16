@@ -19,5 +19,12 @@ Directly run the `main.py`, the approach will run with the default settings.
 Workflows data with .xml format located in folder [XML_Scientific_Workflow](https://github.com/arkle-gr/MARS/tree/main/XML_Scientific_Workflow), including CyberShake, Epigenomics, LIGO, Montage, and SIPHT.
 
 ## Code Structure
-- `agent.py`: the agent in MARS
-- `buffer.py`: 
+- `agent.py`: the agent in approach
+- `buffer.py`: replay buffer
+- `env.py`: hybrid cloud environment
+- `matd3.py`: matd3 algorithm
+- `networks.py`: neural networks
+- `noise.py`: noise
+- `parameter.py`: parameters of approach
+- `workflow.py`: scientific workflows for scheduling
+- `workflow_preprocess.py`: preprocess of workflow files
